@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ego: Unpacked & Unbothered</title>
+    <title> Guide to Ego</title>
+    <link rel="icon" type="image/png" href="imgs/jeff.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -227,18 +228,19 @@
         margin-left: 0 !important;
     }
     #quiz-container .grid {
-        display: flex !important;
-        flex-wrap: nowrap !important;
-        overflow-x: auto !important;
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
         gap: 0.5rem !important;
         margin-bottom: 0.5rem;
-        scrollbar-width: thin;
+        overflow-x: unset !important;
+        flex-wrap: unset !important;
     }
     #quiz-container .quiz-option {
-        min-width: 90px !important;
-        font-size: 0.95rem !important;
-        padding: 0.5rem 0.75rem !important;
-        white-space: nowrap !important;
+        min-width: 0 !important;
+        font-size: 1rem !important;
+        padding: 0.75rem 0.5rem !important;
+        white-space: normal !important;
+        text-align: center !important;
     }
 }
 
@@ -248,7 +250,7 @@
 
     <header class="bg-white/70 backdrop-blur-md sticky top-0 z-50 shadow-sm">
         <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
-            <a href="#" class="text-2xl font-lora font-semibold text-gray-700">Ego Unpacked</a>
+            <a href="#" class="text-2xl font-lora font-semibold text-gray-700">Ego Guide</a>
             <div class="hidden md:flex space-x-6">
                 <a href="#what-is-ego" class="nav-link text-gray-600">What is It?</a>
                 <a href="#identifying-ego" class="nav-link text-gray-600">Spotting It</a>
@@ -324,7 +326,7 @@
                 
                 <div class="text-center mb-16">
                     <img src="imgs/extreme.jpg" alt="Meme about extreme accountability" class="styled-image max-w-sm mx-auto">
-                    <p class="text-sm text-gray-500 italic mt-2"> accountability leads to growth, ego holds you back</p>
+                    <p class="text-sm text-gray-500 italic mt-2"> accountability leads to growth, ego holds you back.</p>
                 </div>
 
                 <h3 class="text-2xl md:text-3xl font-lora font-semibold text-center mb-6 text-gray-700">The Fragile Ego: Easy To Spot lol.</h3>
@@ -352,7 +354,7 @@
                 
                 <div class="text-center mt-12">
                      <img src="imgs/🙏.jpg" alt="Meme saying comparison kills joy, we're all goated twin" class="styled-image max-w-xs mx-auto">
-                     <p class="text-sm text-gray-500 italic mt-2">The type of vibe you'll get on </p>
+                     <p class="text-sm text-gray-500 italic mt-2">The type of vibe you'll get on.</p>
                 </div>
             </div>
         </section>
@@ -380,7 +382,7 @@
                         <h3 class="text-2xl font-lora text-gray-700 mb-4">The Art of Letting Go</h3>
                         <p class="text-gray-600 mb-4">Sometimes, the most profound shifts happen not through forceful change, but through gentle release. It's about loosening the grip, not fighting the current.</p>
                         <p class="text-gray-600 italic">"The moment you become aware of the ego in you, it is strictly speaking no longer the ego, but just an old, conditioned mind-pattern. Ego implies unawareness. Awareness and ego cannot coexist." - Eckhart Tolle</p> <br>
-                        <p class="text-gray-600 italic">"Stop Trying to control everything and just let go" - Tyler Durden</p>
+                        <p class="text-gray-600 italic">"Stop Trying to control everything and just let go" - Tyler (The Goat) Durden</p>
                     </div>
                 </div>
                  <div class="mt-12 text-center">
@@ -395,12 +397,25 @@
                 <h2 class="text-3xl font-lora mb-6">Well, Hello There.</h2>
                 <img src="imgs/jeff.png" alt="A mysterious placeholder for Jeff" class="rounded-full mx-auto mb-6 styled-image">
                 <p class="text-lg mb-4">I have no idea how you ended up in this quiet little corner of the internet, but welcome.</p>
-                <p class="text-lg mb-4">My name is Jeff (nickname btw). I put this site together while tumbling down the rabbit hole of ego research. The idea just sort of... appeared. So, I ran with it. Simple as that.</p>
+                <p class="text-lg mb-4">My name is Jeff (nickname btw). I put this site together while going down the rabbit hole of ego. The idea just sort of... appeared. So, I ran with it. Simple as that.</p>
                 <p class="text-lg mb-4">Hope you found something useful, or at least mildly amusing, here.</p>
                 <p class="text-xl font-semibold mt-6">Let's unlearn shame together.</p>
-                 <p class="text-sm mt-8">You found the secret! ✨</p>
+                 <p class="text-sm mt-8">The way you found this easter egg was so tuff! ✨</p>
             </div>
         </section>
+
+        <section id="further-reading" class="bg-white/80 backdrop-blur-md py-12 fade-in-section">
+    <div class="container mx-auto text-center max-w-xl">
+        <h2 class="text-2xl md:text-3xl font-lora font-bold mb-4 text-gray-700">Further Reading</h2>
+        <p class="text-lg text-gray-600 mb-6">
+            Want to dive deeper? Download this PDF for a more comprehensive look. (NB! This paper is not academic!)
+        </p>
+        <a href="pdfs/Understanding and Navigating the Ego.pdf" download
+           class="inline-block bg-gray-700 hover:bg-gray-800 text-white font-semibold py-3 px-8 rounded-lg shadow-md transition duration-300 text-lg">
+            Download: Understanding and Managing the Ego (PDF)
+        </a>
+    </div>
+</section>
 
     </main>
 
