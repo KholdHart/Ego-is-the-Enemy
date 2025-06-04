@@ -44,7 +44,7 @@ It emphasizes that ego isn't inherently bad—it's a part of us that, when under
 
 ## 👋 About the Creator
 
-Crafted by Jeff (nickname), this project emerged from a personal exploration into the concept of ego.  
+Crafted by KholdHart , this project emerged from a personal exploration into the concept of ego.  
 It's a passion project aimed at sharing insights and sparking curiosity in others.
 
 ---
